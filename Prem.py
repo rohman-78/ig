@@ -146,9 +146,9 @@ for t in range(10000):
 	a=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	b=random.randrange(1, 999)
 	c=random.choice(['A','B', 'C', 'D', 'E', 'F', 'aG', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	brayen1=f'Mozilla/5.0 (Linux; Android {str(rr(7,12))}; Redmi {str(rr(7,12))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ {str(rr(75,150))}.0.{str(rr(5111,5999))}.{str(rr(73,99))} Mobile Safari/537.36'
-	brayen2=f'Mozilla/5.0 (Linux; Android {str(rr(7,12))}; SM-{a}{b}{c}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ {str(rr(75,150))}.0.{str(rr(5111,5999))}.{str(rr(73,99))} Mobile Safari/537.36'
-	brayen3=f'Mozilla/5.0 (Linux; Android {str(rr(7,12))}; Infinix X671) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ {str(rr(75,150))}.0.{str(rr(5111,5999))}.{str(rr(73,99))} Mobile Safari/537.36'
+	brayen1=f'Mozilla/5.0 (Linux; Android {str(rr(9,14))}; Infinix X657B Build/RP1A.{str(rr(111111,210000))}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36 Instagram 218.0.0.19.108 Android (30/11; {str(rr(300,400))}dpi; {str(rr(1100,1200))}x{str(rr(1800,1900))}; INFINIX MOBILITY LIMITED/Infinix; Infinix X657B; Infinix-X657B; mt6761; in_ID; 345526700)'
+	brayen2=f'Mozilla/5.0 (Linux; Android {str(rr(7,12))}; SM-A505FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ {str(rr(75,150))}.0.{str(rr(5111,5999))}.{str(rr(73,99))} Mobile Safari/537.36 Instagram 146.0.0.27.125 Android (28/9; {str(rr(300,400))}dpi; {str(rr(1100,1200))}x{str(rr(1800,1900))}; samsung; SM-A505FN; a50; exynos9610; fi_FI; 221134032)'
+	brayen3=f'Mozilla/5.0 (Linux; Android {str(rr(7,12))}; RMX3201 Build/RP1A.{str(rr(111111,210000))}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(75,150))}.0.{str(rr(5111,5999))}.{str(rr(73,99))} Mobile Safari/537.36 Instagram 215.0.0.27.359 Android (30/11; {str(rr(300,400))}dpi; {str(rr(700,1200))}x{str(rr(1800,1900))}; realme; RMX3201; RMX3201; mt6765; ru_RU; 337202351)'
 	uaku2 = random.choice([brayen1,brayen2,brayen3])
 	UserBrayCrack.append(uaku2)
 	
